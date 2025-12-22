@@ -1,0 +1,1038 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #48f;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+}
+
+header{
+    width: 100%;
+    height: 50dvh;
+    background-image: url("../img/jugueteria.jpg");
+    background-size: cover;
+    background-position: center;      
+    display: flex;
+    align-items: end;   
+    justify-content: center;
+}
+
+
+
+/*-------------- BARRA HORIZONTAL -----------*/
+.hor_nav{    
+    width: 100%;
+    height: 40px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;  
+    background-color:#9dc4f6;
+    box-shadow: 0 0 30px black;  
+}
+
+.hor_list{
+    margin: 0;
+    display: flex;
+    gap: 5px;
+    padding: 0;     
+}
+
+.hor_items{    
+    list-style: none;
+    border-radius: 20px;
+    padding: 5px;
+    transition-property: background-color;
+    transition-duration: .4s;
+}
+
+.hor_items a{     
+    text-decoration: none; 
+    color: #551A8B;   
+}
+
+.hor_items:hover{
+    background-color: #48e;
+    transition-property: background-color;
+    transition-duration: .4s;
+}
+
+/*----------------------------------------*/
+
+/* divs para ubicar cada juguete en la tienda */
+
+main{
+    display: flex; 
+    flex-wrap: wrap;   
+    align-items: center; 
+    justify-content: center;    
+}
+
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container1{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto1{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766428769/1_ivm96u.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre1{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre1 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio1{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio1 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container2{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto2{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766434641/2_r7mtdb.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre2{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre2 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio2{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio2 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container3{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto3{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766434643/3_dl4gx0.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre3{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre3 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio3{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio3 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container4{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto4{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766434642/4_e8g6xt.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre4{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre4 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio4{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio4 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container5{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto5{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766435351/5_yk9ccq.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre5{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre5 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio5{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio5 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container6{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto6{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766435358/6_xy07i5.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre6{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre6 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio6{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio6 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container7{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto7{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766435350/7_yhauio.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre7{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre7 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio7{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio7 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container8{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto8{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766435358/8_qev0xw.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre8{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre8 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio8{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio8 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container9{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto9{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766435353/9_gpj7bz.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre9{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre9 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio9{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio9 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container10{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto10{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766435906/10_k1tlzl.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre10{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre10 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio10{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio10 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container11{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto11{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766437175/11_q8cc1o.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre11{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre11 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio11{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio11 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container12{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto12{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766437175/12_yqnee0.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre12{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre12 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio12{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio12 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container13{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto13{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766437185/13_eaprpl.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre13{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre13 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio13{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio13 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container14{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto14{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766437175/14_qt2mkm.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre14{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre14 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio14{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio14 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container15{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto15{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766437181/15_mrs6iy.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre15{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre15 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio15{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio15 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container16{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto16{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766437184/16_ismslo.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre16{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre16 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio16{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio16 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container17{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto17{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766437180/17_shr3nx.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre17{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre17 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio17{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio17 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container18{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto18{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766437185/18_gywuar.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre18{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre18 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio18{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio18 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
+
+/* ESTO SE REPITE POR CADA ELEMENTO SOLO CAMBIAR EL NUMERO DE CADA ELEMENTO */
+/* ------------------------------------------------ */
+
+.container19{
+    width: 300px;    
+    height: 200px;
+    background-color: #551A8B;
+    box-shadow: 0 0 40px black;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 3px; 
+    border-radius: 10px; 
+}
+
+.foto19{
+    background-image: url("https://res.cloudinary.com/dv2uvt3ck/image/upload/v1766437176/19_euz7iw.jpg");
+    background-size: cover;
+    background-position: center; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px 0 0 10px;
+}
+
+.nombre19{
+    background-color: aliceblue;
+    text-align: center; 
+    display: flex;
+    border-radius: 0 10px 0 0;   
+}
+
+.nombre19 h3{
+    margin: auto;  
+    font-size: 14px;  
+}
+
+.precio19{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 0;
+}
+
+.precio19 h3{
+    margin: auto;      
+}
+
+/* ----------------------------------------------------- */
+
