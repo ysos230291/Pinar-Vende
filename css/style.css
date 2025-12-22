@@ -124,6 +124,23 @@ main{
     color: white;
 }
 
+.juguetes{    
+    width: 322px;
+    height: 300px;
+    margin: 40px 0;
+    box-shadow: 0 0 40px black;
+    text-align: center;
+    background-image: url("../img/jugueteria.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px; 
+}
+
+.juguetes h3{
+    color: white;
+}
+
+
 
 
 
