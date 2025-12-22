@@ -105,6 +105,7 @@ main{
     background-image: url("../img/gym.jpg");
     background-size: cover;
     background-position: center; 
+    border-radius: 20px;
 }
 
 .alimentos{    
@@ -122,6 +123,7 @@ main{
 .alimentos h3{
     color: white;
 }
+
 
 
 
